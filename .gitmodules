@@ -1,0 +1,6 @@
+[submodule "common/JsCPPBean"]
+	path = common/JsCPPBean
+	url = https://github.com/jc-lab/JsCPPBean.git
+[submodule "common/JsCPPUtils"]
+	path = common/JsCPPUtils
+	url = https://github.com/jc-lab/JsCPPUtils.git

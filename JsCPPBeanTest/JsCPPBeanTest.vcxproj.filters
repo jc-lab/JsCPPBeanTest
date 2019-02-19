@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{f1857837-a31f-4510-bc54-23eb4019b034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\JsCPPUtils">
+      <UniqueIdentifier>{7a6518ce-94ba-4a44-8cfc-15980b92284b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\JsCPPBean">
+      <UniqueIdentifier>{9f096650-f80d-478c-ab7f-4d9243605611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\JsCPPBean\exceptions">
+      <UniqueIdentifier>{dd42104e-b2a5-45c1-b679-b30d726cc323}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParentService.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildService.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\BeanFactory.h">
+      <Filter>common\JsCPPBean</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\Bean.h">
+      <Filter>common\JsCPPBean</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\BeanInitializer.h">
+      <Filter>common\JsCPPBean</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPUtils\AtomicNum.h">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPUtils\Common.h">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPUtils\smartpointer.h">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPUtils\WeakSmartPointer.h">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPUtils\Lockable.h">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProcess.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\exceptions\NoSuchBeanDefinitionException.hpp">
+      <Filter>common\JsCPPBean\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\exceptions\JsCPPBeanException.hpp">
+      <Filter>common\JsCPPBean\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsCPPBean\exceptions\BeanCreationException.hpp">
+      <Filter>common\JsCPPBean\exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParentService.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildService.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProcess.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\JsCPPBean\BeanFactory.cpp">
+      <Filter>common\JsCPPBean</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\JsCPPUtils\Common.cpp">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\JsCPPUtils\SmartPointer.cpp">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\JsCPPUtils\Lockable.cpp">
+      <Filter>common\JsCPPUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
